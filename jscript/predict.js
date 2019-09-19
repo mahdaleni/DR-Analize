@@ -45,8 +45,8 @@ $("#image-selector").change(function () {
 let model;
 (async function () {
 	
-	model = await tf.loadModel('http://dr.test.woza.work/model_dr_2/model.json');
-	$("#selected-image").attr("src", "http://dr.test.woza.work/assets/fundus_1.jpg")
+	model = await tf.loadModel('http://laughing-shirley-acdf88.netlify.com/model_dr_2/model.json');
+	$("#selected-image").attr("src", "https://laughing-shirley-acdf88.netlify.com/assets/fundus_1.jpg")
 	
 	console.log('model_dr_2');
 	
